@@ -3,7 +3,7 @@ site:
 content:
   sources:
   - url: .
-    branches: master
+    branches: antora
     start_path: docs
 ui:
   bundle:

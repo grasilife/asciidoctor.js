@@ -1,0 +1,17 @@
+= Extract information from a document
+
+Assumptions:
+
+* [x] You've successfully setup Asciidoctor.js in your project.
+* [x] You have some general knowledge about JavaScript.
+
+== Extract the author
+
+```javascript
+var doc = asciidoctor.loadFile('sample.adoc');
+console.log(doc.getAuthor());
+```
+
+== What's next?
+
+You can read the http://asciidoctor.github.io/asciidoctor.js/master[JavaScript documentation] to learn more about the JavaScript API.

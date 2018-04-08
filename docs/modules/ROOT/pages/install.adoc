@@ -1,0 +1,25 @@
+= Install guide
+
+Assumptions:
+
+* [x] You've installed Node 6+ on your machine.
+
+On this page, you'll learn:
+
+* [x] How to install Asciidoctor.js.
+
+== Install Asciidoctor.js
+
+Open a terminal and type:
+
+[source]
+$ npm i asciidoctor.js
+
+NOTE: If you prefer Yarn over npm, you can install Asciidoctor.js using `yarn add asciidoctor.js`.
+
+== What's next?
+
+Now that Asciidoctor.js is installed, you are ready to:
+
+* xref:setup.adoc[Setup Asciidoctor.js in your project].
+* xref:convert-api.adoc[Convert an AsciiDoc document].
