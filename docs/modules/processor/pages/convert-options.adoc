@@ -1,7 +1,6 @@
-= Specify options
+= Convert options
 
-== Javascript API options
-
+This document describes the list of options you can use when converting a document.
 [cols="15m,15a,15a,15a"]
 |====
 |Name |Description |Default{nbsp}value |Allowed{nbsp}values

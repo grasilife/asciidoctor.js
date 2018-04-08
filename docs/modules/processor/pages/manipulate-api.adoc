@@ -32,4 +32,4 @@ console.log(doc.getAttribute('data-uri')); // prints undefined
 
 == What's next?
 
-You can read the http://asciidoctor.github.io/asciidoctor.js/master[JavaScript documentation] to learn more about the JavaScript API.
+You can read the http://asciidoctor.github.io/asciidoctor.js/master[API docs] to learn more about the API.

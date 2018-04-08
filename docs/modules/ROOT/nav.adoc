@@ -1,2 +1,2 @@
-* xref:install.adoc[Install]
-* xref:setup.adoc[Setup]
+* xref:install.adoc[Install guide]
+* xref:quick-tour.adoc[A quick tour]

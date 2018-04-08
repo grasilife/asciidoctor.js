@@ -2,16 +2,56 @@
 
 Assumptions:
 
-* [x] You've successfully setup Asciidoctor.js in your project.
-* [x] You have some general knowledge about JavaScript.
+* [x] You've successfully installed Asciidoctor.js.
 
-== Extract the author
+To make it easier to understand, in the following examples, we will use this sample file:
 
-```javascript
+.sample.adoc
+[source,adoc]
+----
+= The Dangerous Documentation Chronicles
+Kismet Chameleon <kismet@asciidoctor.org>
+v1.0, October 2, 2018: First incarnation
+
+== The Ravages of Writing
+----
+
+== Document header
+
+
+=== Get the document title
+
+```js
 var doc = asciidoctor.loadFile('sample.adoc');
-console.log(doc.getAuthor());
+console.log(doc.getDocumentTitle()); // The Dangerous Documentation Chronicles
+```
+
+=== Get the author
+
+```js
+var doc = asciidoctor.loadFile('sample.adoc');
+console.log(doc.getAuthor()); // Kismet Chameleon
+```
+
+=== Get the document revision information
+
+```js
+var doc = asciidoctor.loadFile('sample.adoc');
+console.log(doc.getRevisionDate()); // October 2, 2018
+console.log(doc.getRevisionNumber()); // 1.0
+console.log(doc.getRevisionRemark()); // First incarnation
+```
+
+Alternatively, you can also get all the revision information at once:
+
+```js
+var doc = asciidoctor.loadFile('sample.adoc');
+var revisionInfo = doc.getRevisionInfo();
+console.log(revisionInfo.getDate()); // October 2, 2018
+console.log(revisionInfo.getNumber()); // 1.0
+console.log(revisionInfo.getRemark()); // First incarnation
 ```
 
 == What's next?
 
-You can read the http://asciidoctor.github.io/asciidoctor.js/master[JavaScript documentation] to learn more about the JavaScript API.
+You can read the http://asciidoctor.github.io/asciidoctor.js/master[API docs] to learn more about the API.
