@@ -3,9 +3,10 @@ runtime:
 site:
   title: Asciidoctor.js Docs
   url: https://asciidoctorjs-docs.netlify.com
+  start_page: antora::index.adoc
 content:
   sources:
-  - url: .
+  - url: https://github.com/asciidoctor/asciidoctor.js.git
     branches: antora
     start_path: docs
 asciidoc:
