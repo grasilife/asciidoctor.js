@@ -1,6 +1,5 @@
 * Processor API
-//** xref:convert-api.adoc[Convert a document]
+//** xref:processor-api.adoc[Asciidoctor processor]
 ** xref:convert-options.adoc[Convert options]
-//** xref:load-api.adoc[Load a document]
 ** xref:extract-api.adoc[Extract information from a document]
 ** xref:manipulate-api.adoc[Manipulate a document]
