@@ -74,7 +74,7 @@ include uri not readable: `file:///root/path/to/file.adoc`.
 |:x: +
 `SecurityError: Jail is not an absolute path: https://raw.com/master`
 |:x: +
-include file not found: `\{local_pwd\}/https:/raw.com/master/file.adoc`.
+include file not found: `\{local_pwd}/https:/raw.com/master/file.adoc`.
 
 |+../v1.5.0/file.adoc+
 |+https://raw.com/master+
@@ -82,7 +82,7 @@ include file not found: `\{local_pwd\}/https:/raw.com/master/file.adoc`.
 |:x: +
 `SecurityError: Jail is not an absolute path: https://raw.com/master`
 |:x: +
-include file not found: `\{local_pwd\}/https:/raw.com/master/file.adoc`.
+include file not found: `\{local_pwd}/https:/raw.com/master/file.adoc`.
 
 |+https://raw.com/master/../v1.5.0/file.adoc+
 |
